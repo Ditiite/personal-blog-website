@@ -1,0 +1,55 @@
+@import "card.css";
+@import "colorSchema.css";
+@import "fonts.css";
+@import "buttonsAndLinks.css";
+@import "navBar.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-bg);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+#main-container {
+    margin: 0;
+}
+
+#main-grid {
+    max-width: 900px;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    grid-auto-rows: min-content;
+}
+
+label,
+button,
+a,
+select {
+    cursor: pointer;
+}
+
+.grid-cards {
+    display: grid;
+    grid-gap: 1rem;
+    grid-auto-rows: min-content;
+}
+
+/* For smooth scrolling */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+          scroll-behavior: smooth;
+    }
+  }
+  

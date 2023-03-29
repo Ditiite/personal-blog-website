@@ -1,0 +1,31 @@
+@import "colorSchema.css";
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    /* border: 1px solid var(--primary-text); */
+    border-radius: 3px;
+    grid-auto-rows: min-content;
+    background-color: var(--secondary-bg);
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container h2,
+.card-container p,
+.card-container button {
+    margin-top: 1rem;
+}
+
+.card__img {
+    width: 100%; 
+}
+
+.card__date {
+    font-size: 0.8rem;;
+}

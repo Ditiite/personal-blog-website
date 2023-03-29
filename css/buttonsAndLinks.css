@@ -1,0 +1,12 @@
+button {
+    border-radius: 3px;
+    border: none;
+    padding: 0.5rem;
+    background-color: transparent;
+    color: var(--primary-text)
+}
+
+a {
+    color: var(--primary-text);
+    text-decoration: none;
+}

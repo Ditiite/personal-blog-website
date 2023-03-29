@@ -1,0 +1,28 @@
+#nav-bar {
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    background-color: var(--secondary-bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+}
+
+#nav-bar h1 {
+    font-size: 2rem;
+}
+
+.nav-bar__links {
+    display: flex;
+    max-width: 50%;
+}
+
+.nav-bar__links li {
+    list-style: none;
+    padding: 0 1rem;
+}
+
+.nav-bar__links li a {
+    text-transform: uppercase;
+}
