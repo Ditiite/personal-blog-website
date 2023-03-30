@@ -16,6 +16,8 @@
 .nav-bar__links {
     display: flex;
     max-width: 50%;
+    flex-wrap: wrap;
+
 }
 
 .nav-bar__links li {
