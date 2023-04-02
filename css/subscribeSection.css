@@ -23,3 +23,14 @@ input::placeholder {
     opacity: 0.5;
     font-size: 0.9rem;
 }
+
+@media (max-width: 600px) {
+    .subscribe form {
+        flex-direction: column;
+        max-width: 90vw;
+    }
+
+    input {
+        margin: 1rem;
+    }
+}

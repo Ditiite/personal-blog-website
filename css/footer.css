@@ -15,6 +15,10 @@ footer {
     align-items: center;
 }
 
+.social-media__icons {
+    display: flex;
+}
+
 .fa {
     color: var(--primary);
     padding: 0 1rem;
@@ -34,4 +38,13 @@ footer {
 
 .copyright p {
     font-size: 0.7rem;
+}
+
+@media (max-width: 600px) {
+    .social-media {
+        flex-direction: column;
+    }
+    .social-media__icons {
+        margin-top: 1rem;
+    }
 }
