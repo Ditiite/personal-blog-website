@@ -28,7 +28,6 @@ figcaption {
 }
 
 blockquote {
-    font-style: italic;
     color: var(--primary-text);
     border-left: 3px solid var(--primary);
     padding-left: 1rem;
